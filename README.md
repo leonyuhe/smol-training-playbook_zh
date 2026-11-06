@@ -50,7 +50,7 @@ npm run build        # 输出到 app/dist
 
 在线站点：<https://leonyuhe.github.io/smol-training-playbook_zh/>
 
-仓库中的 `docs/` 是构建好的静态站点，`gh-pages` 分支与它保持同步，GitHub Pages 从该分支发布。
+仓库中的 `docs/` 是构建好的静态站点。推送到 `main` 后，GitHub Actions（`.github/workflows/pages.yml`）会把 `docs/` 发布到 GitHub Pages；`gh-pages` 分支保留为手动发布的后备方案。
 
 重新构建并发布：
 
@@ -60,7 +60,7 @@ npm run build:gh
 cd ..
 git add docs
 git commit -m "rebuild site"
-git subtree push --prefix docs origin gh-pages
+git push origin main
 ```
 
 `build:gh` 会执行 Astro 构建、把根路径资源改写成 `/smol-training-playbook_zh/` 前缀，并把产物复制到 `docs/`。
