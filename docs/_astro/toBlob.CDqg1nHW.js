@@ -1,0 +1,1 @@
+import{toCanvas as m}from"./toCanvas.BH2of0Pu.js";import"./snapdom.Bt8WGMfx.js";import"./preload-helper.L9vyjn7Q.js";async function p(o,e){let i=e.type;if(i==="svg"){let t=decodeURIComponent(o.split(",")[1]);return new Blob([t],{type:"image/svg+xml"})}let n=await m(o,e);return new Promise(t=>n.toBlob(a=>t(a),`image/${i}`,e.quality))}export{p as toBlob};

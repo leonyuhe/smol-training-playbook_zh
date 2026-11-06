@@ -1,0 +1,28 @@
+Smol 训练实战手册（中文翻译版）
+================================
+
+原文
+----
+Title: The Smol Training Playbook: The Secrets to Building World-Class LLMs
+Authors: Loubna Ben Allal, Lewis Tunstall, Nouamane Tazi, Elie Bakouch,
+         Ed Beeching, Carlos Miguel Patiño, Clémentine Fourrier, Thibaud Frere,
+         Anton Lozhkov, Colin Raffel, Leandro von Werra, Thomas Wolf
+Publisher: Hugging Face
+URL: https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+中文翻译
+--------
+Translated and maintained by leonyuhe
+URL: https://github.com/leonyuhe/smol-training-playbook_zh
+License: CC BY 4.0
+
+说明
+----
+本仓库是上述作品的非官方简体中文翻译。正文、标题、图注与界面文案为译文；
+代码、命令行参数、变量名、URL、模型名、论文名、数字与公式保留原文。
+交互式图表内部的坐标轴、图例与按钮，以及脚注引用卡片保留英文原文。
+
+原文版权归 Hugging Face 及原作者所有。本译文按 CC BY 4.0 许可发布，
+使用时请保留原作者署名、原文链接、译者署名与本仓库链接。
